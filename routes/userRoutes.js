@@ -27,6 +27,5 @@ router.delete("/delete", auth.authToken ,userC.deleteUser)
 router.put("/update", auth.authToken ,userC.updateUser)
 
 
-
 module.exports = router
 
