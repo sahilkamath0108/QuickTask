@@ -22,5 +22,5 @@ const noteSchema = new Schema({
 noteSchema.index({createdAt: 1},{expireAfterSeconds: 86400})
 
 
-const NoteSchema = mongoose.model("user", noteSchema);
+const NoteSchema = mongoose.model("note", noteSchema);
 module.exports = NoteSchema;

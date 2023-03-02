@@ -203,4 +203,5 @@ module.exports = {
   loginUser,
   deleteUser,
   updateUser,
+  fileVerifyPfp
 };
