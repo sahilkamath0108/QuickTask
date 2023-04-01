@@ -12,7 +12,7 @@ router.post("/new", noteC.createNote)
 
 // delete note
 
-router.delete("/delete", auth.authToken ,noteC.deleteNote)
+router.delete("/delete/:id", auth.authToken ,noteC.deleteNote)
 
 //updating note
 
